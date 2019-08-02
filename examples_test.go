@@ -34,15 +34,15 @@ func ExampleHTML() {
 		fmt.Println(row)
 	}
 	// Output:
-	// <table>,
-	// <thead>,
-	// <tr><td>Head 1</td><td>Head 2</td><td>Head 3</td></tr>,
-	// </thead>,
-	// <tbody>,
-	// <tr><td>Body 1</td><td>Body 2</td><td>Body 3</td></tr>,
-	// <tr><td>Body 4</td><td>Body 5</td><td>Body 6</td></tr>,
-	// </tbody>,
-	// </table>,
+	// <table>
+	// <thead>
+	// <tr><td>Head 1</td><td>Head 2</td><td>Head 3</td></tr>
+	// </thead>
+	// <tbody>
+	// <tr><td>Body 1</td><td>Body 2</td><td>Body 3</td></tr>
+	// <tr><td>Body 4</td><td>Body 5</td><td>Body 6</td></tr>
+	// </tbody>
+	// </table>
 }
 
 func ExampleAsciidoc() {
@@ -56,10 +56,10 @@ func ExampleAsciidoc() {
 		fmt.Println(row)
 	}
 	// Output:
-	// [options=header],
-	// |=================,
-	// | Head 1 | Head 2 | Head 3,
-	// | Body 1 | Body 2 | Body 3,
-	// | Body 4 | Body 5 | Body 6,
-	// |=================,
+	// [options="header"]
+	// |=================
+	// | Head 1 | Head 2 | Head 3
+	// | Body 1 | Body 2 | Body 3
+	// | Body 4 | Body 5 | Body 6
+	// |=================
 }
