@@ -1,5 +1,7 @@
 # markup-table
 
+[![Build Status](https://travis-ci.org/jiro4989/markup-table.svg?branch=master)](https://travis-ci.org/jiro4989/markup-table)
+
 `markup-table` is a package for generating tables of markup languages.
 
 ## Installation
