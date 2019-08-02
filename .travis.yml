@@ -1,0 +1,9 @@
+language: go
+
+env:
+  global:
+    - GO111MODULE=on
+
+script:
+  - go version
+  - go test ./... -cover
