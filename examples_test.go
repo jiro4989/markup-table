@@ -52,7 +52,7 @@ func ExampleAsciidoc() {
 		{"Body 1", "Body 2", "Body 3"},
 		{"Body 4", "Body 5", "Body 6"},
 	}
-	for _, row := range table.Markdown(matrix) {
+	for _, row := range table.Asciidoc(matrix) {
 		fmt.Println(row)
 	}
 	// Output:
