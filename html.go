@@ -5,6 +5,9 @@ import (
 	"strings"
 )
 
+// HTML returns a HTML table from matrix.
+//
+// HTML wraps rows with table, thead and tbody tags.
 func HTML(matrix [][]string) []string {
 	if len(matrix) < 1 {
 		return []string{}

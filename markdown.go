@@ -2,6 +2,7 @@ package table
 
 import "strings"
 
+// Markdown returns a markdown table from matrix.
 func Markdown(matrix [][]string) []string {
 	if len(matrix) < 1 {
 		return []string{}

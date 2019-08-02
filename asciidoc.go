@@ -1,7 +1,13 @@
+/*
+Table is a package for generating tables of markup languages.
+*/
 package table
 
 import "strings"
 
+// Asciidoc returns a asciidoc table from matrix.
+//
+// Asciidoc always has a table header.
 func Asciidoc(matrix [][]string) []string {
 	if len(matrix) < 1 {
 		return []string{}
